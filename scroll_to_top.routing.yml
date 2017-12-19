@@ -1,0 +1,7 @@
+scroll_to_top.form:
+    path: '/admin/config/user-interface/scrolltotop'
+    defaults:
+        _title: 'Scroll to top'
+        _form: '\Drupal\scroll_to_top\Form\ScrollToTopForm'
+    requirements:
+        _permission: 'access administration pages'
